@@ -1,0 +1,242 @@
+:root{
+    --primary-color:#e8e8e9;
+    --secondary-color:#abd8f7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.no-underline{
+    text-decoration: none;
+    color: rgb(31, 34, 204);
+}
+
+.capital-letters{
+    text-transform: uppercase;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+/* HEADER */
+.nav-container{
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.nav-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-logo {
+    text-align: start;
+}
+
+.nav-logo img{
+    width: 20%;
+    padding: 0.5rem;
+    padding-left: 1rem;
+
+}
+
+.nav-option, .nav-option li{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 0.5rem 3rem
+}
+
+/* MAIN */
+
+.main-container{
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    padding: 2rem 0;
+    line-height: 1.5;   
+}
+
+.initial-section{
+    margin: auto;
+    width: 85%;
+    background-color: var(--secondary-color);
+    border-radius: 2rem;
+}
+
+.initial-position{
+    display: flex;
+    align-items: center;
+}
+
+.initial-description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    position: relative;
+    left: 5rem;
+}
+
+.initial-description h1{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.initial-description p{
+    position: relative;
+    margin: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.initial-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial-img img {
+    width: 60.5rem;
+    height: 40rem;
+    position: relative;
+    left: 10rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+#right-button{
+    position: relative;
+    right: 50rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--secondary-color);
+}
+
+#left-button{
+    position: relative;
+    left:-0.5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--secondary-color);
+}
+
+
+.middle-section{
+    position: relative;
+    margin: 4rem auto 0;
+    width: 85%;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 1rem 0;
+}
+
+.middle-section h1{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+.middle-information{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.middle-information a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    margin: 0 5rem;
+}
+
+.middle-information img{
+    width: 20rem;
+    object-fit: cover;
+    padding-bottom: 1rem;
+}
+    
+/* FOOTER */
+
+.footer-container{
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.footer-position-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+}
+
+.footer-img p{
+    font-size: 1.5rem;
+}
+
+.footer-img img{
+    width: 3rem;
+    margin-top: 0.5rem;
+}
+
+.footer-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 1.5rem;
+    margin: 1rem 0;
+}
+
+.footer-date p{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-position-2{
+    display: flex;
+
+}
+
+.footer-copyright{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}

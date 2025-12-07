@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEI "Mariana Febres Cordero"</title>
+    <link rel="stylesheet" href="./css/index-style.css">
+</head>
+<body>
+    <header class="nav-container">
+        <nav class="nav-menu">
+            <div class="nav-logo">
+                <img src="./img/logo/logo.webp" alt="Logo del Centro de Educación Inicial Mariana Febres Cordero ">
+            </div>
+            <div>
+                <ul class="nav-option">
+                    <li><a href="index.html" class="no-underline capital-letters">Inicio</a></li>
+                    <li><a href="nosotros.html" class="no-underline capital-letters">Nosotros</a></li>
+                    <li><a href="informacion.html" class="no-underline capital-letters">Información</a></li>
+                    <li><a href="galeria.html" class="no-underline capital-letters">Galería</a></li>
+                    <li><a href="contacto.html" class="no-underline capital-letters">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section class="initial-section">
+            <div  class="initial-position">
+                <div class="initial-description">
+                    <h1>Centro de Educación Inicial Mariana Febres Cordero</h1>
+                    <p>
+                    Nos dedicamos a la educación de calidad para los más pequeños, con 
+                    el compromiso de fomentar un ambiente estimulante donde los niños 
+                    puedan crecer y desarrollarse plenamente
+                    </p>
+                </div>
+                <div class="initial-img" id="carrusel">
+                    <img src="./img/carrusel/recuerdo.jpg" alt="imagen">
+                    <img src="./img/carrusel/recuerdo1.png" alt="Imagen 1" id="img1" style="display: none;"> 
+                    <img src="./img/carrusel/recuerdo2.png" alt="Imagen 2" id="img2" style="display: none;">
+                    <img src="./img/carrusel/recuerdo3.png" alt="Imagen 3" id="img3" style="display: none;">
+                    <img src="./img/carrusel/recuerdo4.png" alt="Imagen 4" id="img4" style="display: none;">
+                    <img src="./img/carrusel/recuerdo5.png" alt="Imagen 5" id="img5" style="display: none;">
+                    <img src="./img/carrusel/recuerdo6.png" alt="Imagen 6" id="img6" style="display: none;">
+                    <img src="./img/carrusel/recuerdo7.png" alt="Imagen 7" id="img7" style="display: none;">
+                    <img src="./img/carrusel/recuerdo8.png" alt="Imagen 8" id="img8" style="display: none;">
+                    <button id="right-button"  onclick="cambiarImagen(-1)"><</button>
+                    <button id="left-button" onclick="cambiarImagen(1)">></button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="middle-section">
+            <h1>Bienvenido a nuestra sección de información</h1>
+            <div class="middle-information">
+                <a href="nosotros.html" class="no-underline capital-letters"><img src="./img/body/nosotros.png" alt="Icono de Nosotros"> Nosotros</a>
+                <a href="informacion.html" class="no-underline capital-letters"><img src="./img/body/informacion.png" alt="Icono de Información"> Información</a>
+                <a href="galeria.html" class="no-underline capital-letters"><img src="./img/body/galeria.png" alt="Icono de Galería"> Galería</a>
+                <a href="contacto.html" class="no-underline capital-letters"><img src="./img/body/contacto.png" alt="Icono de Galería"> Contacto</a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container">
+        <section class="footer-position-1">
+            <div class="footer-img">
+                <p>Síguenos en Redes Sociales</p>
+                <a href="https://www.facebook.com/groups/1489710087958261/?locale=es_LA" target="_blank" rel="noopener noreferrer"> <img src="./img/redes/2023_Facebook_icon.svg.png" alt="Facebook"></a>
+            </div>
+            <div class="footer-date">
+                <p><strong>¡Contáctenos!</strong></p>
+                <p>Teléfono: +58 0412-7466-682</p>
+                <p>Teléfono del Plantel: 0241-8661545</p>
+                <p>Email: mfebres32@gmail.com</p>
+                <p>Dirección: Calle los Chorros cruce con calle Las Brisas, Barrio Oeste I.</p>
+            </div>
+        </section>
+        <section class="footer-position-2">
+            <div class="footer-copyright">
+                <p>&copy; 2025-2026 Hecho por Diaz Brayan y Castillo Marian.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+    <script src="./js/carrusel.js" id="carrusel"></script>
+</html>
