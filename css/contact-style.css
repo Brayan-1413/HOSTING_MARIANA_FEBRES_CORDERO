@@ -132,25 +132,13 @@ html{
 }
 
 .footer-img p{
+    padding-top: 1rem;
     font-size: 1.5rem;
 }
 
 .footer-img img{
     width: 3rem;
     margin-top: 0.5rem;
-}
-
-.footer-date {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-right: 1.5rem;
-    margin: 1rem 0;
-}
-
-.footer-date p{
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
 }
 
 .footer-position-2{
